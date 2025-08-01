@@ -8,7 +8,7 @@ const MainLayout = () => {
       <header>
         <Header />
       </header>
-      <main>
+      <main className="min-h-screen mt-5 mx-5">
         <Outlet />
       </main>
       <footer>
